@@ -1,6 +1,6 @@
 #Why Python
 """  
-A consise purpose programming. 
+A concise purpose programming. 
 Scientific and data analysis.
 Top programming skills required
 """
@@ -14,3 +14,11 @@ print("Hello world! ")
 #Download python from the official python.org
 #Visual studio is an IDE(Integrated Development Environment)
 #Use Python Extension by Microsoft
+
+print(10/5)
+print(10%5)
+print(10+5)
+print(10-5)
+print(10*5)
+
+#Follows the operator precedence
