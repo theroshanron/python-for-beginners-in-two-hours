@@ -74,3 +74,16 @@ thomas_age = 5
 age_at_kindergarden = 50
 
 print(thomas_age == age_at_kindergarden)
+
+#if, elif and else
+age_enter = int(input("Enter your age: "))
+age_for_school = 8
+
+if age_enter < age_for_school:
+    print(" Go to the kindergarden")
+elif age_enter == age_for_school:
+    print(" You can go to the school")
+else:
+    print("You should go to the high school")
+    
+#Make sure to add indent and add colon after if,elif or else
