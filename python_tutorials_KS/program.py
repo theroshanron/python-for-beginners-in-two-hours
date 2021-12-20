@@ -60,3 +60,17 @@ print(red_bucket) #Red bucket is not defined variable
 #Take input
 black_bucket = input(" What do you want to put in the bucket? ")
 print(black_bucket)
+
+#Conditional logic
+
+print(5==4)
+print(5>3)
+print(5<3)
+print(5!=3)
+
+#Operators symbols to perform operatios
+
+thomas_age = 5 
+age_at_kindergarden = 50
+
+print(thomas_age == age_at_kindergarden)
