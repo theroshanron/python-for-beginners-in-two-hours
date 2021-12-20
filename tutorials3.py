@@ -29,5 +29,31 @@ while i < 4:
 else:
     print("What's happening? ")
     print(i)
-
     
+#For loops used for iteration over a sequence (list,tuple, dictionary and sets as well)
+a = ["boom",2,3.5,4,'what']
+for n in a:
+    print(n)
+#Strings are iterable objects
+for i in "Bananane":
+    print(i)    
+    
+#break statements
+a = ["boom",2,3,5,4,'what']
+for n in a:
+    print(n)
+    if n ==3:
+        break
+    elif n==2:
+        continue
+    else:
+        print("Okay, I am done")
+        
+a = [1,2,3,4]
+for z in a:
+    print(z)
+else:
+    print("Done")
+    
+#For loops can't be empty
+"""However, it can be avoided with ""pass"" statement"""
