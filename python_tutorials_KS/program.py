@@ -87,3 +87,36 @@ else:
     print("You should go to the high school")
     
 #Make sure to add indent and add colon after if,elif or else
+
+#Functions also known as subroutine
+#print is a function to display the value of variable or input
+#we can create our own functions
+#A block of code that we can package together a name and it does something to make it modular and re-usable
+
+print(" I am the best, aren't I? ")
+print(" I am the best, aren't I? ")
+print(" I am the best, aren't I? ")
+print(" I am the best, aren't I? ")
+
+#Can be many many error and complex, difficult to find the issue when tasks are in repetition
+
+def print_cool():
+    A="I am the best, always have been! "
+    print(A)
+    print(A)
+    print(A)#belongs to the function and indent is needed
+    
+#leave two lines to call the function
+print_cool()
+print_cool()
+print_cool()
+
+#First we need to define the function with def before we call the function
+
+def print_boom(Y):
+    print(Y)
+    print(Y)
+    print(Y)
+    
+    
+print_boom(" I already told you that I am amazing!")
