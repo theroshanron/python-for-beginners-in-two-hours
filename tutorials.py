@@ -85,6 +85,14 @@ print(bool(0))
 print(bool(False))
 print(bool(None))
 
+#Operators
+""" + --> Addition
+    - --> Subtraction
+    * --> Multiplication
+    / --> Division
+    % --> Modulus
+    += --> Assignment operators"""
+
 
 
 
