@@ -57,3 +57,26 @@ else:
     
 #For loops can't be empty
 """However, it can be avoided with ""pass"" statement"""
+
+#Functions -->
+"""Block of code which runs when it's called
+    A fucntion can return data as result
+    defined with def keywor
+    Accepts parameter and arguments
+    called by function name with parenthesis
+    """
+
+def function():
+    print("Hello this is my function")
+
+function()
+
+#information can be passed to a function as a arguments separated by comma
+#Always pass the correct number of arguments w.r.t Parameter else we will run into the type error
+
+def name(name):
+    print(name)
+
+name("Roshan")
+
+
