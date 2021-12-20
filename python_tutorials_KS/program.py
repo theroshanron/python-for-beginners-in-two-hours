@@ -29,3 +29,9 @@ print('Nothing ')
 
 #Helpful in escaping the quotes and double quotes somewhere
 #Escape character is allowed with backslashes
+
+# -- single line comments --------------------------------
+""" Multiple line comments
+Running here
+Ends here"""
+
