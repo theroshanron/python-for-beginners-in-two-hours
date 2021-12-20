@@ -15,10 +15,17 @@ print("Hello world! ")
 #Visual studio is an IDE(Integrated Development Environment)
 #Use Python Extension by Microsoft
 
-print(10/5)
+print(10/3)
 print(10%5)
 print(10+5)
 print(10-5)
 print(10*5)
+print(10**3)
 
 #Follows the operator precedence
+
+print("What's up? ")
+print('Nothing ')
+
+#Helpful in escaping the quotes and double quotes somewhere
+#Escape character is allowed with backslashes
