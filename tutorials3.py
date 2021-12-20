@@ -16,10 +16,18 @@ else:
 #While loops
 """ Execute a set of statement until the condition is true"""
 
-i = 5
+i = 1
 while i < 4:
     print(i)
     i +=1
-    
+    if i == 3:
+        print(i)
+        break
+    elif i == 2:
+        print(i)
+        continue
+else:
+    print("What's happening? ")
+    print(i)
 
     
