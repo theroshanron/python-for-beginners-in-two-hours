@@ -80,3 +80,14 @@ def name(name):
 name("Roshan")
 
 
+#Objects
+"""Python is an object oriented programming language.
+A class is a blueprint for creating objects
+    """
+    
+class Myclass():
+    k  = 7.5
+    
+a =Myclass() #Here is an object of class
+
+print(a.k)
