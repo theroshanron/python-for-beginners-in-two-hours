@@ -35,3 +35,28 @@ print('Nothing ')
 Running here
 Ends here"""
 
+#Variables used
+red_bucket = "Mario sizuka"
+white_bucket = 8 
+blue_bucket  = 7.4
+
+""" Must container letters, numbers or underscores
+starts with the small letter
+should not start with a number or underscore
+cannot be the existing keyword
+Case sensitive
+uses assignment operator =
+No need to assign a type to the variable in python
+"""
+
+print(red_bucket)
+
+print(white_bucket)
+print(type(blue_bucket)) #tells us the type of the variable
+
+#Take del red_bucket
+print(red_bucket) #Red bucket is not defined variable
+
+#Take input
+black_bucket = input(" What do you want to put in the bucket? ")
+print(black_bucket)
