@@ -35,3 +35,25 @@ set = {"apple",2,3.5,"cherry",2,3}
 
 print(set)
 print(len(set))
+
+#Dictionaries
+""" Ordered from python 3.7
+Key:value pairs
+Created using {}
+Build in data type"""
+
+
+dictionary = {
+    "brand" : "Volkswagen",
+    "model" : "polo GT",
+    "year"  : 2020
+    
+}
+
+print(dictionary)
+print(len(dictionary))
+print(dictionary["year"])
+
+
+#Dictionary does not allow duplicates
+
