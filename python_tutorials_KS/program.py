@@ -135,3 +135,8 @@ pairs = [(1,2),(3,4)]
 for pair in pairs:
     func2(*pair)
     func2(**{'x':2, 'y':4})
+    
+#lambda
+#lambda is one line function with
+x = lambda x: x+5
+print(x(2))
