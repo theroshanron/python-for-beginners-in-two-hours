@@ -158,3 +158,11 @@ def add_ten_to_age(age):
 
 Old = add_ten_to_age(5)
 print(Old)
+
+#Loops - It allows you to execute block of codes multiple times 
+x = 0
+
+while(x<5):
+    print("Ronny")
+    print(x)
+    x=x+1
