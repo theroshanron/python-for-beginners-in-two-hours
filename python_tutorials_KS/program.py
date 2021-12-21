@@ -126,3 +126,12 @@ def func(*args, **kwargs):
 
 x =[1,23,236363,2727]
 print(*x) #unpacks the collection
+
+def func2(x,y):
+    print(x,y)
+    
+pairs = [(1,2),(3,4)]
+
+for pair in pairs:
+    func2(*pair)
+    func2(**{'x':2, 'y':4})
