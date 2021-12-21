@@ -140,3 +140,21 @@ for pair in pairs:
 #lambda is one line function with
 x = lambda x: x+5
 print(x(2))
+
+def school_age_calculation(age,name):
+    if age < 5:
+        print(" Enjoy the time", name, "is only", age)
+    elif age == 5:
+        print(" Enjoy kindergarten ", name, "is only", age)
+    else:
+        print("They grow up so fast")
+school_age_calculation(4,"Thomas")
+
+
+def add_ten_to_age(age):
+    new_age=age + 10
+    return new_age
+
+
+Old = add_ten_to_age(5)
+print(Old)
