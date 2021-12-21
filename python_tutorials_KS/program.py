@@ -166,3 +166,19 @@ while(x<5):
     print("Ronny")
     print(x)
     x=x+1
+    
+#for loops
+
+for x in range(5,15,2):
+    print(x)
+    
+days = ["mon","tuesday","wednesday","thursday","friday","saturday","sunday"]
+
+for d in days:
+    if (d==days[3]):
+        continue
+    elif (d==days[5]):
+        break
+    print(d)
+    
+    
