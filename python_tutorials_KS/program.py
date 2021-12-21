@@ -120,3 +120,9 @@ def print_boom(Y):
     
     
 print_boom(" I already told you that I am amazing!")
+
+def func(*args, **kwargs):
+    pass
+
+x =[1,23,236363,2727]
+print(*x) #unpacks the collection
