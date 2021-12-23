@@ -79,5 +79,9 @@ print(price > 10 and price < 30)
 temperature = 23
 if temperature > 30:
     print("It's a hot day")
+    
+elif temperature == 25:
+    print("It's a 25 degree temperature ")
 else:
     print("It's a cold day")
+print("Done")
