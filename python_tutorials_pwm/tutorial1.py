@@ -30,3 +30,17 @@ a = input("enter the first number: ")
 b = input("enter the second number: ")
 c = float(a) + float(b)
 print(c)
+
+
+#Strings
+course = "Python for beginners"
+course1 = 'python for beginners'
+course.capitalize()
+print(course1.upper())
+
+#when an object is part of the function we refer it to as method name
+print(course)
+print(course1)
+print(course1.find('b'))
+
+print("P" in course) #check whether the string or word exist or not
