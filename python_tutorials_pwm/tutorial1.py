@@ -75,3 +75,9 @@ print(price > 10 and price < 30)
 #Or - One of the condition should be True
 #not - It inverses the result for e.g True becomes False and False becomes True
 
+#statements
+temperature = 23
+if temperature > 30:
+    print("It's a hot day")
+else:
+    print("It's a cold day")
