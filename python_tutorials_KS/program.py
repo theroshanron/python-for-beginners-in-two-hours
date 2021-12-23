@@ -185,3 +185,9 @@ for d in days:
 import math
 
 print(math.pi)
+
+#Troubleshooting code
+""" Look for Error in the console
+Look through the codes
+Check for run time error 
+Look up error online on sites like stackoverflow"""
