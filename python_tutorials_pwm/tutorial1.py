@@ -44,3 +44,14 @@ print(course1)
 print(course1.find('b'))
 
 print("P" in course) #check whether the string or word exist or not
+
+
+#Arithmetic operator
+# ** - Exponential operator
+# // Returns integer after the division
+# / Returns float after the division
+x = 10
+x = x+3
+x += 3 #Augmented assigned operator
+print(x)
+
