@@ -59,3 +59,19 @@ print(x)
 
 #BODMAS - Exponent, Bracket, Off, Division , Multiplication , Subtraction , Addition , Subtraction
 
+#Comparison operators
+# == Equals - Equals
+# <= Less than equal to and gives boolean indicating
+# >= Greater than equal to and gives boolean indicating
+# < Less than and gives boolean indicating
+# > Greater than and gives boolean indicating
+# != Not equal to and gives boolean indicating
+
+#Logical Operators
+price = 25
+print(price > 10 and price < 30)
+
+#AND - Both expression should be True
+#Or - One of the condition should be True
+#not - It inverses the result for e.g True becomes False and False becomes True
+
