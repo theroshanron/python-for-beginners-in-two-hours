@@ -123,3 +123,16 @@ print(names)
 print("Oliver Queen" in names)
 
 print(len(names))
+
+#For Loops
+for i in names:
+    print(i)
+    
+i = 0
+
+while i < len(names):
+    print(names[i])
+    i+=1
+    
+for z in range(9,30,3):
+    print(z)
