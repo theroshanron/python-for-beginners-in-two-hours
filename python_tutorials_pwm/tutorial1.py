@@ -85,3 +85,15 @@ elif temperature == 25:
 else:
     print("It's a cold day")
 print("Done")
+
+#exercises
+weight = int(input("Enter your weight: "))
+conversion = input("Enter your conversion value: Kg or Lbs: ")
+con= conversion.lower()
+
+if con == "kg":
+    print(weight*2.2)
+elif con == "lbs":
+    print(weight/2.2)
+else:
+    print("Please select the correct conversion value: ")
