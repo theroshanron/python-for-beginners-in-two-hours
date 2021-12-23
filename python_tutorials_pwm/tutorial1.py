@@ -97,3 +97,12 @@ elif con == "lbs":
     print(weight/2.2)
 else:
     print("Please select the correct conversion value: ")
+    
+    
+#while loops
+
+i = 1
+ 
+while i <= 8:
+    print(i * "*")
+    i +=1
