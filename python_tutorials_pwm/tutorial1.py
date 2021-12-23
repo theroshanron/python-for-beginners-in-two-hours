@@ -55,3 +55,7 @@ x = x+3
 x += 3 #Augmented assigned operator
 print(x)
 
+#Operator Precedence
+
+#BODMAS - Exponent, Bracket, Off, Division , Multiplication , Subtraction , Addition , Subtraction
+
