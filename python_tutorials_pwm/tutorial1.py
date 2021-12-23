@@ -20,3 +20,13 @@ print(patient_name,patient_age,new_patient)
 
 name  = input("What is your name boy? ")
 print("Hello  " + name) #string concatenated
+
+#type conversion
+birth_year = int(input("Enter your birth year: "))
+age = 2020 - birth_year
+print(age)
+
+a = input("enter the first number: ")
+b = input("enter the second number: ")
+c = float(a) + float(b)
+print(c)
